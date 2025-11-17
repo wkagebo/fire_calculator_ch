@@ -1,0 +1,11 @@
+spring.application.name=firecalculator
+
+# PostgreSQL connection
+spring.datasource.url=jdbc:postgresql://localhost:5432/firecalculator
+spring.datasource.username=fireuser
+spring.datasource.password=YOUR_PASSWORD
+
+# JPA / Hibernate settings
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect

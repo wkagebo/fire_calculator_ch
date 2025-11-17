@@ -15,8 +15,6 @@ Swiss FIRE calculator backend (Spring Boot)
    mvn spring-boot:run
    
 ## Future Improvements
-Switch to MySQL/PostgreSQL
-
 Add REST endpoints for assets and preferences
 
 Add FIRE calculation endpoint
